@@ -1,7 +1,7 @@
 import './SummaryComponent.css';
 
 function SummaryComponent({ children }) {
-	return <div className='container'>{children}</div>;
+	return <section className='container'>{children}</section>;
 }
 
 export default SummaryComponent;
