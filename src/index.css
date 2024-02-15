@@ -1,0 +1,45 @@
+:root {
+	/* COLORS */
+	/* Primary */
+	--clr-primary-red: #ff5757;
+	--clr-primary-yellow: #ffb01f;
+	--clr-primary-green: #00bd91;
+	--clr-primary-blue: #1125d4;
+
+	/* Gradients */
+	--clr-bg-1: #7857ff;
+	--clr-bg-2: #2e2be9;
+	--clr-circle-1: #4e21ca;
+	--clr-circle-2: #2421ca00;
+
+	/* Neutral */
+
+	--clr-white: #ffffff;
+	--clr-light: #ebf1ff;
+	--clr-levander: #c8c7ff;
+	--clr-dark: #303b5a;
+}
+
+@font-face {
+	font-family: 'Hanken Grotesk';
+	src: url(./fonts/HankenGrotesk-VariableFont_wght.ttf) format('truetype');
+}
+
+html {
+	scroll-behavior: smooth;
+	font-size: 62.5%;
+}
+body,
+body *,
+body *::after,
+body *::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Hanken Grotesk', sans-serif;
+	font-size: 1.6rem;
+	background-color: var(--clr-light);
+}
