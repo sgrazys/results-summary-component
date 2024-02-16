@@ -1,0 +1,23 @@
+.btn {
+	font-family: inherit;
+	font-size: 1.8rem;
+	color: var(--clr-white);
+	background-image: linear-gradient(to bottom, var(--clr-dark), var(--clr-dark));
+	border: none;
+	border-radius: 7.1111em;
+	width: 100%;
+	padding: 1em 6.6777em;
+	margin-top: 1.3333em;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.btn:hover {
+	background-image: linear-gradient(to bottom, var(--clr-bg-1), var(--clr-bg-2));
+}
+
+@media (min-width: 48em) {
+	.btn {
+		margin-top: 41px;
+	}
+}
