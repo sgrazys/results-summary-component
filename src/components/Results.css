@@ -4,8 +4,39 @@
 	align-items: center;
 	justify-content: center;
 	width: 100%;
-	border-bottom-left-radius: 3.2rem;
-	border-bottom-right-radius: 3.2rem;
-	padding: 2.4rem 5.4rem 4rem;
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	padding: 1.5em 3.375em 2.5em;
 	background-image: linear-gradient(to bottom, var(--clr-bg-1), var(--clr-bg-2));
+}
+
+.header > h1 {
+	font-size: 1.8rem;
+	margin-bottom: 1.3888em;
+}
+
+.circle {
+	border-radius: 50%;
+	background-image: linear-gradient(to bottom, var(--clr-circle-1), var(--clr-circle-2));
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 140px;
+	height: 140px;
+	margin-bottom: 1.5em;
+}
+.circle > p {
+	color: rgba(200, 199, 255, 0.5);
+}
+
+p.result {
+	font-size: 5.8rem;
+	font-weight: 800;
+	color: var(--clr-white);
+}
+
+.summary {
+	color: var(--clr-white);
+	margin-bottom: 0.5em;
 }
