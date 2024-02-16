@@ -23,8 +23,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 140px;
-	height: 140px;
+	width: 14rem;
+	height: 14rem;
 	margin-bottom: 1.5em;
 }
 .circle > p {
@@ -40,4 +40,43 @@ p.result {
 .summary {
 	color: var(--clr-white);
 	margin-bottom: 0.5em;
+}
+
+@media (min-width: 48em) {
+	.header {
+		border-radius: 2em;
+		padding: 2.375em 3.375em 2.875em;
+		left: 30px;
+		min-width: 347px;
+	}
+
+	.header > h1 {
+		font-size: 2.4rem;
+		margin-bottom: 1.4853em;
+	}
+
+	.circle {
+		width: 20rem;
+		height: 20rem;
+		margin-bottom: 1.75em;
+	}
+
+	.circle:last-of-type {
+		font-size: 1.8rem;
+	}
+
+	p.result {
+		font-size: 7.2rem;
+		color: var(--clr-white);
+	}
+
+	.summary {
+		font-size: 2.4rem;
+		margin-bottom: 1.7142em;
+	}
+
+	.feedback {
+		font-size: 1.8rem;
+		text-align: center;
+	}
 }

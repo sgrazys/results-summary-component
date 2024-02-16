@@ -1,4 +1,4 @@
-button.btn {
+.btn {
 	font-family: inherit;
 	font-size: 1.8rem;
 	color: var(--clr-white);
@@ -12,6 +12,12 @@ button.btn {
 	transition: all 0.3s;
 }
 
-button.btn:hover {
+.btn:hover {
 	background-image: linear-gradient(to bottom, var(--clr-bg-1), var(--clr-bg-2));
+}
+
+@media (min-width: 48em) {
+	.btn {
+		margin-top: 41px;
+	}
 }
