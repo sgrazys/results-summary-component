@@ -8,6 +8,7 @@
 	border-bottom-right-radius: 2em;
 	padding: 1.5em 3.375em 2.5em;
 	background-image: linear-gradient(to bottom, var(--clr-bg-1), var(--clr-bg-2));
+	position: relative;
 }
 
 .header > h1 {
